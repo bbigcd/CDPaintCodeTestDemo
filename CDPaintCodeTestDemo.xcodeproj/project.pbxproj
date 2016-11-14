@@ -15,6 +15,7 @@
 		54F2A3621DDA014F005609D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F2A3601DDA014F005609D2 /* LaunchScreen.storyboard */; };
 		54F2A36D1DDA014F005609D2 /* CDPaintCodeTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F2A36C1DDA014F005609D2 /* CDPaintCodeTestDemoTests.m */; };
 		54F2A3781DDA014F005609D2 /* CDPaintCodeTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F2A3771DDA014F005609D2 /* CDPaintCodeTestDemoUITests.m */; };
+		54F2A3871DDA01A5005609D2 /* PaintCodeTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F2A3851DDA01A5005609D2 /* PaintCodeTutorial.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		54F2A3731DDA014F005609D2 /* CDPaintCodeTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDPaintCodeTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F2A3771DDA014F005609D2 /* CDPaintCodeTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDPaintCodeTestDemoUITests.m; sourceTree = "<group>"; };
 		54F2A3791DDA014F005609D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F2A3851DDA01A5005609D2 /* PaintCodeTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintCodeTutorial.m; sourceTree = "<group>"; };
+		54F2A3861DDA01A5005609D2 /* PaintCodeTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintCodeTutorial.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				54F2A3561DDA014F005609D2 /* AppDelegate.m */,
 				54F2A3581DDA014F005609D2 /* ViewController.h */,
 				54F2A3591DDA014F005609D2 /* ViewController.m */,
+				54F2A3861DDA01A5005609D2 /* PaintCodeTutorial.h */,
+				54F2A3851DDA01A5005609D2 /* PaintCodeTutorial.m */,
 				54F2A35B1DDA014F005609D2 /* Main.storyboard */,
 				54F2A35E1DDA014F005609D2 /* Assets.xcassets */,
 				54F2A3601DDA014F005609D2 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54F2A35A1DDA014F005609D2 /* ViewController.m in Sources */,
+				54F2A3871DDA01A5005609D2 /* PaintCodeTutorial.m in Sources */,
 				54F2A3571DDA014F005609D2 /* AppDelegate.m in Sources */,
 				54F2A3541DDA014F005609D2 /* main.m in Sources */,
 			);

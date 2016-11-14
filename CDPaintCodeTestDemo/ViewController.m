@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "PaintCodeTutorial.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) UIImageView *imageView;
 
 @end
 
@@ -17,6 +20,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    UIView *view = [[UIView alloc] init];
+//    view.frame = (CGRect){0, 0, 250, 250};
+//    view.center = self.view.center;
+//    [self.view addSubview:view];
+    
+    UIImage *image = [PaintCodeTutorial imageOfCanvas1];
+    self.imageView = [[UIImageView alloc] init];
+    _imageView.frame = (CGRect){0, 0, 250, 250};
+    _imageView.center = self.view.center;
+    _imageView.image = image;
+    
+    [self.view addSubview:_imageView];
+    
+    [PaintCodeTutorial drawCanvas1];
 }
 
 - (void)didReceiveMemoryWarning {
